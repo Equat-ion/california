@@ -1,6 +1,12 @@
 {
   "name": "california",
   "private": true,
+  "scripts": {
+    "android": "cd apps/android && bun run start -- --go",
+    "android:qr": "cd apps/android && bun run start -- --go",
+    "android:lan": "cd apps/android && bun run start -- --lan",
+    "android:web": "cd apps/android && bun run web"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
