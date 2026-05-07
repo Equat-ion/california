@@ -1,0 +1,8 @@
+{
+  "name": "california",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

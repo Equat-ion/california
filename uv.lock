@@ -2,6 +2,12 @@ version = 1
 revision = 3
 requires-python = ">=3.13"
 
+[manifest]
+members = [
+    "california",
+    "california-api",
+]
+
 [[package]]
 name = "annotated-doc"
 version = "0.0.4"
@@ -36,6 +42,11 @@ wheels = [
 name = "california"
 version = "0.1.0"
 source = { virtual = "." }
+
+[[package]]
+name = "california-api"
+version = "0.1.0"
+source = { virtual = "apps/api" }
 dependencies = [
     { name = "dotenv" },
     { name = "fastapi" },
