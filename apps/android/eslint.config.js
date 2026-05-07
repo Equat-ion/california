@@ -7,4 +7,14 @@ module.exports = defineConfig([
   {
     ignores: ['dist/*'],
   },
+  {
+    settings: {
+      'import/core-modules': [
+        'class-variance-authority',
+        'expo-dev-client',
+        'nativewind',
+        'rn-icon-mapper',
+      ],
+    },
+  },
 ]);
