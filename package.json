@@ -10,9 +10,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "react-native-paper": "^5.15.1",
-    "react-native-safe-area-context": "^5.7.0"
-  }
+  ]
 }
